@@ -1,8 +1,8 @@
 const length = 10000000;
 const array = Array(length).fill().map((_, i) => i + 1);
 
-array.splice(-1,1);
-array.splice(-1,1);
+array.splice(0,1);
+array.splice(0,1);
 
 // Сложность алгоритма O(n)
 const findAbsentNumbers = (array, length) => {
